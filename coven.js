@@ -30,16 +30,16 @@ if(resposta == "sim" || resposta == "Sim"){
 
     console.log();
 
-    console.log("------------------------------------------")
-    console.log("|Para conversar responda: sim, SIM ou 1  |")
-    console.log("|Caso não queira conversar: nao, NAO ou 2|")
-    console.log("------------------------------------------")
+    console.log("--------------------------------------")
+    console.log("|Para conversar responda: sim ou SIM |")
+    console.log("|Caso não queira conversar:nao ou NAO|")
+    console.log("--------------------------------------")
 
     console.log();
 
     resp = prompt("Escolha se quer conversar ou nao: ")
 
-    if(resp == "sim" || resp == "SIM" || resp == 1){
+    if(resp == "sim" || resp == "SIM"){
         console.log("Obrigada por aceitar conversar comigo!")
         console.log();
         console.log("A seguir farei algumas perguntas, atraves de suas respostas irei avaliar a voce, Hertenah.")
